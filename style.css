@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(/664d2a0d4145a08503a0acfd5dd8366e.gif);
+}
+
+header h1 {
+    color: #fff;
+}
+
+h1 {
+    margin: 30px;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul > li {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.nav_item {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.projects #projectsNav {
+    background-color: #dddddda1;
+    border-radius: 10px;
+}
+
+.resume #resumeNav {
+    background-color: #dddddda1;
+    border-radius: 10px;
+}
+
+.index #indexNav {
+    background-color: #dddddda1;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.card {
+    background-color: #dddddda1;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 150px;
+    cursor: pointer;
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+} 
+
+.upper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume-card {
+    background-color: #dddddda1;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.resume-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover
+}
+
+.resume-card h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.resume-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.resume-card hr {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.resume-card ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.resume-card li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.projects-card {
+    background-color: #dddddda1;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project img {
+    width: 30px;
+    height: 30px;
+}

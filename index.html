@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ваше Имя - Визитка</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      function imgResize () {
+        var img = document.getElementById("image");
+        if (img.style.width != "150px") {
+          img.style.width = "150px";
+          img.style.height = "150px";
+          img.style.borderRadius = "50%"
+          img.style.position = "relative"
+          img.style.top = "0"
+          img.style.left = "0"
+          img.style.transform = ""
+        } else {
+          img.style.borderRadius = "0"
+          img.style.width = "800px";
+          img.style.height = "800px";
+          img.style.position = "absolute"
+          img.style.top = "50%"
+          img.style.left = "50%"
+          img.style.transform = "translate(-50%, -50%)"
+        }
+      };
+    </script>
+  </head>
+  <body class="index">
+    <header>
+      <h1>Визитка</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a class="nav_item" id="indexNav" href="index.html">Визитка</a></li>
+        <li><a class="nav_item" id="resumeNav" href="resume.html">Резюме</a></li>
+        <li><a class="nav_item" id="projectsNav" href="projects.html">Проекты</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="card">
+        <div class="profile">
+          <img id="image" onclick="imgResize()" src="/IMG_20241003_091409.jpg" />
+          <h2>Алимов Даниил</h2>
+          <p>Студент 4-ого курса Ступиноского филиала МАИ</p>
+        </div>
+        <div class="contact">
+          <ul>
+            <li>
+              <a href="tel:+71234567890">+7 123 456 78 90</a>
+            </li>
+            <li>
+              <a href="mailto:daniilalimov683@gmail.com"
+                >daniilalimov683@gmail.com</a
+              >
+            </li>
+
+            <li>
+              <a href="https://github.com/Hohensonne">GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/your_fontawesome_key.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
